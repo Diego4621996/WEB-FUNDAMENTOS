@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+    
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/cool-wavy-abstract-gradient_53876-93826.jpg);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head { 
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    border-bottom: 1px solid #ccc;
+    position: fixed;    
+    width: 100%;
+    z-index: 100;
+    
+}
+
+
+/*Menú de Inicio*/
+.navbar {
+    
+    display: flex;
+    margin-left: 550px;
+    white-space: nowrap;
+
+}
+
+.logo {
+    margin-left: 30px
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Sección Principal*/
+.menu {
+    height: 70vh !important;
+    width: cover;
+    background-image: url('https://epsevg.upc.edu/ca/shared/imatges/estudis/2020/infromatica_banner_2020.jpg/@@images/image-0-28380188e4c0fe4d9c855f8b01942d1a.jpeg');
+    background-repeat: no-repeat center;
+    background-size: cover;
+    
+}
+
+.title {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+}
+
+.p1  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    border-radius: 15px;
+    max-width: 80%;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    width: 200px;
+    outline: none; 
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box i {
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.box p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #555;
+}
+
+/*Sección Contacto*/
+.title2 {
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #161616;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+}
+
+form {
+    position: absolute;
+    top: 750%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sección Redes*/
+.title3 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1A1A1A;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+}
+
+.body.red {
+    background-image: url(https://previews.123rf.com/images/dodes11/dodes111507/dodes11150700019/43201760-tri%C3%A1ngulo-de-fondo-p%C3%A1gina-web-vector-illustration-fondo-abstracto-dise%C3%B1o-de-semitono-del-fondo.jpg);
+}
+
+.friend-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+
+.friend-link-container {
+    margin-bottom: 15px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.friend-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.friend-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/*Sección FII*/
+.title4 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-bottom: 50px;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #171717;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-para-el-del-encabezado-sitio-web-banner-t%C3%ADtulo-plantilla-de-publicidad-se-burla-espacio-copia-l%C3%A1piz-abstracto-sombreado-276811238.jpg);
+  }
+
+  .titulo-bloque {
+    color: #333;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-left: 25%;
+    text-transform: uppercase;
+}
+
+
+.unidad-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.unidad-table tr {
+    margin-bottom: 10px;
+}
+
+
+.encabezado, .unidad-numero, .unidad, th, td {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    text-align: left;
+}
+
+.encabezado {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.unidad-numero {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.unidad:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.unidad:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.bibliografia-link {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+.bibliografia-link:hover {
+    color: #0056b3; 
+}
+
+/*Sección Temas*/
+
+.title5 {
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+  }
+
+  .info-section {
+    text-align: center;
+    margin-top: 700px;
+    margin-left: -1500px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.info-list li {
+    margin: 0 10px;
+    max-width: 300px; 
+    text-align: left;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.info-list li:hover {
+    transform: scale(1.05);
+}
+
+.info-list li strong {
+    color: #3498db;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 1150px;
+    margin-left: -900px;
+    margin-right: auto;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    height: auto;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Sección Sobre Mí*/
+.title6 {
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    letter-spacing: 6px;
+    z-index: 1;
+}
+
+.about-me {
+    text-align: center;
+    padding: 20px;
+    margin-top: 450px;
+    margin-left: -1500px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    border-radius: 15px;
+    max-width: 80%;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.photos {
+    text-align: center;
+    margin-top: 1000px;
+}
+
+.photos img {
+    max-width: 300%;
+    height: auto;
+    margin: 10px;
+    margin-left: -1100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+    margin-top: 1500px;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #2980b9;
+}
+
+.cv-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-link:hover {
+    background-color: #219e4e;
+}
